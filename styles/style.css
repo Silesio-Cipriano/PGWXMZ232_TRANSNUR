@@ -1,1 +1,74 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62, 5%;
+  margin: 0 auto;
+  max-width: 1380px;
+}
+
+body {
+  padding: 1.5rem 1.5rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .logo {
+  margin-top: -1rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #142C2E;
+}
+header nav div .buttonPrimary button {
+  cursor: pointer;
+  background-color: #142C2E;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  font-weight: bold;
+  border: 1px solid #142C2E;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+header nav div .buttonPrimary div {
+  width: 11.7rem;
+  height: 3rem;
+  border: 1.5px solid #142C2E;
+  margin-left: 10px;
+  margin-top: -40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 62, 5%;
+    margin: 0 auto;
+    max-width: 1380px;
+  }
+  body {
+    padding: 1rem 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
