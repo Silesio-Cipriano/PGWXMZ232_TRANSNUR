@@ -100,14 +100,20 @@ header nav div .buttonPrimary div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10rem;
 }
 .our_clients h2 {
   font-size: 2rem;
 }
-.our_clients .logo {
+.our_clients .logos {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
+  margin-top: 48px;
+}
+.our_clients .logos img {
+  width: 10rem;
 }
 
 @media screen and (max-width: 400px) {
