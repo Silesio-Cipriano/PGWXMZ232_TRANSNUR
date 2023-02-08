@@ -15,8 +15,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <button class="btn_iconHeader">
+      <nav id="nav">
+        <button onclick="toggleSidebar()" class="btn_iconHeader">
           <img src="./assets/btnHeader.svg" />
         </button>
         <div class="logo">
@@ -26,9 +26,9 @@
           />
         </div>
 
-        <div class="center_nav">
+        <div class="center_nav" id="center_nav">
           <ul>
-            <button class="btn_iconHeader">
+            <button onclick="toggleSidebar()" class="btn_iconHeader">
               <img src="./assets/x.svg" />
             </button>
             <li>
@@ -56,5 +56,10 @@
         </div>
       </nav>
     </header>
+    <div class="content" id="content" tabindex="0" onclick="closeSidebar()">
+      <img src="./assets/TruckHero.png" />
+    </div>
+
+    <script src="./javascript/index.js"></script>
   </body>
 </html>

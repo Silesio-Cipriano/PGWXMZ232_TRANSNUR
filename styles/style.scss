@@ -106,19 +106,14 @@ header {
   }
 
   nav {
-    flex-direction: column;
-    top: 0;
     background-color: white;
-    width: 35vw;
     
     padding: 1em;
     animation-duration: 1s;
-    margin-left: -10vw;
-    height: 100%;
 
     .center_nav {
       align-items: center;
-
+      z-index: 2;
       ul {
     padding-top:2rem;
     
@@ -132,8 +127,7 @@ header {
       background-color: $base_color;
       width: 50vw;
       animation-duration: 1s;
-      left: 0;
-      animation-name: showSideBar;
+      margin-left: -100vw;
       height: 100%;
 
       li {
@@ -158,12 +152,20 @@ header {
 
     @keyframes showSideBar {
       from{
-        margin:0 50px;
+        margin-left:-100vw;
       }
       to{
-        margin:0 0;
+        margin-left:-10vw;
       }
-      
+    }
+
+    @keyframes hiddenSideBar {
+      from{
+        margin-left:-10vw;
+      }
+      to{
+        margin-left:-100vw;
+      }
     }
   }
 
