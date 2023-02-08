@@ -1,5 +1,5 @@
 $base_color: #142C2E;
-$focus_color:#2C95D6;
+$focus_color: #2C95D6;
 
 * {
   padding: 0;
@@ -12,6 +12,8 @@ html {
   font-size: 62, 5%;
   margin: 0 auto;
   max-width: 1380px;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -90,54 +92,106 @@ header {
 }
 
 
-.hero{
-  margin-top:5rem;
-  div{
+.hero {
+  margin-top: 5rem;
+
+  div {
     display: flex;
     flex-direction: column;
-    h2{
-      font-size:7rem;
-      span{
-        color:$focus_color;
-      }
-     
-  }
-  p{
-    align-self:flex-end;
-    width: 400px;
-  }
-}
 
-  img{
-    margin-top:80px;
+    h2 {
+      font-size: 7rem;
+
+      span {
+        color: $focus_color;
+      }
+
+    }
+
+    p {
+      align-self: flex-end;
+      width: 400px;
+    }
+  }
+
+  img {
+    margin-top: 80px;
     width: 80rem;
     height: 442px;
   }
 }
 
 
-.our_clients{
+.our_clients {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
-  margin-top:10rem;
+  margin-top: 10rem;
 
-  h2{
-    font-size:2rem;
+  h2 {
+    font-size: 2rem;
   }
 
-  .logos{
+  .logos {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin-top:48px;
+    margin-top: 48px;
 
-    img{
+    img {
       width: 10rem;
     }
   }
+
+  .our_solution {
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+    left: 0;
+
+
+    p {
+      margin-top: 100px;
+      width: 700px;
+      font-size: 20px;
+    }
+  }
 }
+
+.separe {
+  content: '';
+  margin-top: 50rem;
+}
+
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .services_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    gap: 7rem;
+
+    h3 {
+      margin-top: 5rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin-top: 32px;
+      font-size: 1.3rem;
+    }
+  }
+}
+
 
 
 @media screen and (max-width: 400px) {
@@ -159,16 +213,17 @@ header {
 
   nav {
     background-color: white;
-    
+
     padding: 1em;
     animation-duration: 1s;
 
     .center_nav {
       align-items: center;
       z-index: 2;
+
       ul {
-    padding-top:2rem;
-    
+        padding-top: 2rem;
+
         flex-direction: column;
       }
 
@@ -189,34 +244,38 @@ header {
         }
       }
 
-      .buttonPrimary{
-        margin-top:-4rem;
-        button{
+      .buttonPrimary {
+        margin-top: -4rem;
+
+        button {
           background-color: white;
-          color:$base_color;
+          color: $base_color;
         }
-        div{
-          display: none;  
+
+        div {
+          display: none;
         }
       }
 
     }
 
     @keyframes showSideBar {
-      from{
-        margin-left:-100vw;
+      from {
+        margin-left: -100vw;
       }
-      to{
-        margin-left:-10vw;
+
+      to {
+        margin-left: -10vw;
       }
     }
 
     @keyframes hiddenSideBar {
-      from{
-        margin-left:-10vw;
+      from {
+        margin-left: -10vw;
       }
-      to{
-        margin-left:-100vw;
+
+      to {
+        margin-left: -100vw;
       }
     }
   }

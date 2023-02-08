@@ -32,10 +32,10 @@
               <img src="./assets/x.svg" />
             </button>
             <li>
-              <a href="#">Clientes</a>
+              <a href="#clients">Clientes</a>
             </li>
             <li>
-              <a href="#">Serviços</a>
+              <a href="#services">Serviços</a>
             </li>
             <li>
               <a href="#">Nosso diferencial</a>
@@ -57,7 +57,7 @@
       </nav>
     </header>
     <div class="content" id="content" tabindex="0" onclick="closeSidebar()">
-      <div class="hero">
+      <section class="hero">
         <div>
           <h2>Solução de <span>transporte</span> para o seu negócio</h2>
           <p>
@@ -66,8 +66,8 @@
           </p>
         </div>
         <img src="./assets/TruckHero.png" />
-      </div>
-      <div class="our_clients">
+      </section>
+      <section id="clients" class="our_clients">
         <h2>Nossos Clientes</h2>
         <div class="logos">
           <img src="./assets/MatanuskaLogo.png" />
@@ -77,7 +77,31 @@
           <img src="./assets/INGCLogo.png" />
           <img src="./assets/CMLogo.png" />
         </div>
-      </div>
+        <div class="our_solution">
+          <img src="./assets/TruckExtra01.png" />
+          <p>
+            Oferecemos soluções de Transporte de cargas e mercadorias observando
+            e analisando a particularidade e a necessidade de cada cliente, pois
+            sabemos que cada cliente/negócio é único e merece dedicação
+            exclusiva.
+          </p>
+        </div>
+      </section>
+      <div class="separe"></div>
+      <section id="services" class="services">
+        <h2>Serviços</h2>
+        <div class="services_content">
+          <div>
+            <h3>Transporte de transferencia</h3>
+            <p>
+              O seu negócio terá o parceiro certo para realizar as
+              transferências de matéria prima para a fabrica como também de
+              produtos acabados para o seu armazém.
+            </p>
+          </div>
+          <img src="./assets/TruckExtra02.png" />
+        </div>
+      </section>
     </div>
 
     <script src="./javascript/index.js"></script>
