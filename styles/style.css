@@ -68,6 +68,24 @@ header nav div .buttonPrimary div {
   -o-border-radius: 3px;
 }
 
+.floatButton {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  padding: 0.5rem 0.5rem;
+  z-index: 2;
+  background-color: #142C2E;
+  border: 2px solid white;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.floatButton img {
+  width: 2.2rem;
+}
+
 .buttonPrimary button {
   cursor: pointer;
   background-color: #142C2E;
