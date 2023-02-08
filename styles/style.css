@@ -9,6 +9,7 @@ html {
   font-size: 62, 5%;
   margin: 0 auto;
   max-width: 1380px;
+  height: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -308,6 +309,48 @@ header nav div .buttonPrimary div {
 .coverage .contentCoverage h3 {
   font-size: 1.5rem;
   margin: 2rem 0;
+}
+
+footer {
+  margin-top: 12rem;
+}
+footer > div {
+  background-color: #142C2E;
+  position: absolute;
+  left: 0;
+  padding: 6rem 12rem;
+  padding-bottom: 10rem;
+  align-items: center;
+  right: 0;
+  color: white;
+  text-align: center;
+}
+footer > div h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+footer > div button {
+  margin-top: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+footer > div div {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer > div div .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+footer > div div .left span {
+  display: flex;
+  gap: 1.2rem;
+}
+footer > div div .right h4 {
+  width: 12rem;
 }
 
 @media screen and (max-width: 400px) {

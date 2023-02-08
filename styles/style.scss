@@ -12,7 +12,7 @@ html {
   font-size: 62, 5%;
   margin: 0 auto;
   max-width: 1380px;
-
+  height: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -376,6 +376,64 @@ header {
 
     display: flex;
   }
+}
+
+
+footer {
+  margin-top: 12rem;
+
+  >div {
+    background-color: $base_color;
+    position: absolute;
+    left: 0;
+    padding: 6rem 12rem;
+    padding-bottom: 10rem;
+
+    align-items: center;
+    right: 0;
+    color: white;
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+
+      padding: 1rem 3rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    div {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+        display: flex;
+        flex-direction: column;
+
+        gap: 1.2rem;
+
+        span {
+          display: flex;
+          gap: 1.2rem;
+        }
+      }
+
+      .right {
+        h4 {
+          width: 12rem;
+        }
+      }
+    }
+
+  }
+
+
 }
 
 @media screen and (max-width: 400px) {
