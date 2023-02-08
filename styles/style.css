@@ -73,6 +73,43 @@ header nav div .buttonPrimary div {
   display: none;
 }
 
+.hero {
+  margin-top: 5rem;
+}
+.hero div {
+  display: flex;
+  flex-direction: column;
+}
+.hero div h2 {
+  font-size: 7rem;
+}
+.hero div h2 span {
+  color: #2C95D6;
+}
+.hero div p {
+  align-self: flex-end;
+  width: 400px;
+}
+.hero img {
+  margin-top: 80px;
+  width: 80rem;
+  height: 442px;
+}
+
+.our_clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our_clients h2 {
+  font-size: 2rem;
+}
+.our_clients .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 400px) {
   html {
     font-size: 62, 5%;

@@ -2,6 +2,7 @@ let nav = document.getElementById('nav');
 let centerNav = document.getElementById('center_nav');
 let content = document.getElementById('content');
 let showSidebar = false;
+
 function toggleSidebar() {
   showSidebar = !showSidebar;
   if (showSidebar) {

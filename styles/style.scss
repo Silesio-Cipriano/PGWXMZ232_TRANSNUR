@@ -1,4 +1,5 @@
 $base_color: #142C2E;
+$focus_color:#2C95D6;
 
 * {
   padding: 0;
@@ -87,6 +88,50 @@ header {
   cursor: pointer;
   display: none;
 }
+
+
+.hero{
+  margin-top:5rem;
+  div{
+    display: flex;
+    flex-direction: column;
+    h2{
+      font-size:7rem;
+      span{
+        color:$focus_color;
+      }
+     
+  }
+  p{
+    align-self:flex-end;
+    width: 400px;
+  }
+}
+
+  img{
+    margin-top:80px;
+    width: 80rem;
+    height: 442px;
+  }
+}
+
+
+.our_clients{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  h2{
+    font-size:2rem;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 
 @media screen and (max-width: 400px) {
   html {
