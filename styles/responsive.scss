@@ -1,0 +1,139 @@
+@media screen and (max-width: 400px) {
+  html {
+    padding: auto 10px;
+  }
+
+  header {
+    nav {
+      .logo {
+        img {
+          width: 8rem;
+        }
+      }
+
+      .center_nav {
+        width: 70vw;
+        font-size: 12px;
+      }
+    }
+  }
+
+  div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+    .hero {
+      margin-top: 2rem;
+
+      h2 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      align-items: center;
+
+      p {
+
+        font-size: 0.8rem;
+        align-self: center;
+        text-align: center;
+        margin: 10px 0;
+        width: 350px;
+
+      }
+
+      img {
+        margin-top: 40px;
+        width: 20rem;
+        height: 6rem;
+      }
+    }
+  }
+
+  .our_clients {
+    h2 {
+      font-size: 1rem;
+    }
+
+    .logos {
+      flex-direction: column;
+      gap: 40px;
+
+      img {
+        width: 60px;
+      }
+    }
+
+    .our_solution {
+      flex-direction: column;
+
+      img {
+        width: 24rem;
+      }
+
+      align-items: center;
+
+      p {
+        margin-top: 40px;
+        font-size: 10px;
+        width: 350px;
+        text-align: center;
+      }
+    }
+  }
+
+
+
+  .services {
+    img {
+      width: 100px;
+    }
+  }
+
+  .about {
+
+    div {
+      img {
+        width: 100px;
+      }
+    }
+  }
+
+  .mission {
+    .missionContent {
+      padding: 0 0;
+
+      h2 {
+        font-size: 24px;
+      }
+
+      div {
+        img {
+          width: 2rem;
+        }
+
+
+
+        p {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .coverage {
+    .contentCoverage {
+      flex-direction: column;
+
+      img {
+        width: 10px;
+      }
+    }
+  }
+
+
+
+}
