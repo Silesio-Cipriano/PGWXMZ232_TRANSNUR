@@ -67,6 +67,33 @@ header nav div .buttonPrimary div {
   -o-border-radius: 3px;
 }
 
+.buttonPrimary button {
+  cursor: pointer;
+  background-color: #142C2E;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  font-weight: bold;
+  border: 1px solid #142C2E;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.buttonPrimary div {
+  width: 11.7rem;
+  height: 3rem;
+  border: 1.5px solid #142C2E;
+  margin-left: 10px;
+  margin-top: -40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
 .btn_iconHeader {
   background-color: transparent;
   border: none;
@@ -156,6 +183,47 @@ header nav div .buttonPrimary div {
   font-size: 1.3rem;
 }
 
+.why h3 {
+  font-size: 2rem;
+}
+.why > div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 6rem;
+}
+.why > div .info {
+  margin-top: 2rem;
+}
+.why > div .info h4 {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.3411764706);
+}
+.why > div .info .subInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.why > div .info .subInfo p {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+.why > div .points {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.why > div .points .card {
+  display: flex;
+  gap: 1rem;
+}
+.why > div .points .card h3 {
+  margin-top: 0.4rem;
+  font-size: 1.5rem;
+}
+.why > div .points .card p {
+  margin-top: 1.2rem;
+}
+
 @media screen and (max-width: 400px) {
   html {
     font-size: 62, 5%;
@@ -166,7 +234,7 @@ header nav div .buttonPrimary div {
     padding: 1rem 1rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .btn_iconHeader {
     display: block;
   }
