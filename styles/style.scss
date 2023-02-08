@@ -156,7 +156,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  padding-top: 6rem;
 
   h2 {
     font-size: 2rem;
@@ -199,6 +199,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10rem;
 
   h2 {
     font-size: 2rem;
@@ -223,6 +224,8 @@ header {
 }
 
 .why {
+  padding-top: 8rem;
+
   h3 {
     font-size: 2rem;
   }
@@ -238,17 +241,18 @@ header {
       h4 {
         font-size: 1.6rem;
         color: #00000057;
+        margin-bottom: 2rem;
+
       }
 
       .subInfo {
 
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 4rem;
 
         p {
           font-size: 1.3rem;
-          margin-top: 1.5rem;
         }
       }
     }
@@ -268,7 +272,8 @@ header {
         }
 
         p {
-          margin-top: 1.2rem;
+          margin-top: 1rem;
+          text-align: justify;
         }
       }
     }
@@ -276,6 +281,102 @@ header {
   }
 }
 
+.about {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  div {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    span {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+    }
+
+    img {
+      width: 40rem;
+    }
+  }
+}
+
+.mission {
+  padding-top: 20rem;
+
+  .missionContent {
+    position: absolute;
+    background-color: $base_color;
+    color: white;
+    left: 0;
+    right: 0;
+    padding: 6rem 20rem;
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 5rem;
+      }
+
+      .leftHash {
+        align-self: flex-start;
+      }
+
+      .rightHash {
+        align-self: flex-end;
+      }
+
+      p {
+        text-decoration: wavy;
+        padding: 40px 10px;
+        font-size: 2.8rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+
+
+}
+
+.coverage {
+  padding-top: 10rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .contentCoverage {
+    h3 {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    display: flex;
+  }
+}
 
 @media screen and (max-width: 400px) {
   html {

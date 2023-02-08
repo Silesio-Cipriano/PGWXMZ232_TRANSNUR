@@ -128,7 +128,7 @@ header nav div .buttonPrimary div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  padding-top: 6rem;
 }
 .our_clients h2 {
   font-size: 2rem;
@@ -164,6 +164,7 @@ header nav div .buttonPrimary div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10rem;
 }
 .services h2 {
   font-size: 2rem;
@@ -183,6 +184,9 @@ header nav div .buttonPrimary div {
   font-size: 1.3rem;
 }
 
+.why {
+  padding-top: 8rem;
+}
 .why h3 {
   font-size: 2rem;
 }
@@ -197,15 +201,15 @@ header nav div .buttonPrimary div {
 .why > div .info h4 {
   font-size: 1.6rem;
   color: rgba(0, 0, 0, 0.3411764706);
+  margin-bottom: 2rem;
 }
 .why > div .info .subInfo {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 .why > div .info .subInfo p {
   font-size: 1.3rem;
-  margin-top: 1.5rem;
 }
 .why > div .points {
   display: flex;
@@ -221,7 +225,89 @@ header nav div .buttonPrimary div {
   font-size: 1.5rem;
 }
 .why > div .points .card p {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.about {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.about h2 {
+  font-size: 2rem;
+}
+.about p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.about div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.about div span {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.about div img {
+  width: 40rem;
+}
+
+.mission {
+  padding-top: 20rem;
+}
+.mission .missionContent {
+  position: absolute;
+  background-color: #142C2E;
+  color: white;
+  left: 0;
+  right: 0;
+  padding: 6rem 20rem;
+  text-align: center;
+}
+.mission .missionContent h2 {
+  font-size: 3rem;
+}
+.mission .missionContent div {
+  display: flex;
+  flex-direction: column;
+}
+.mission .missionContent div img {
+  width: 5rem;
+}
+.mission .missionContent div .leftHash {
+  align-self: flex-start;
+}
+.mission .missionContent div .rightHash {
+  align-self: flex-end;
+}
+.mission .missionContent div p {
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  padding: 40px 10px;
+  font-size: 2.8rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.coverage {
+  padding-top: 10rem;
+}
+.coverage h2 {
+  font-size: 2rem;
+}
+.coverage .contentCoverage {
+  display: flex;
+}
+.coverage .contentCoverage h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 
 @media screen and (max-width: 400px) {
