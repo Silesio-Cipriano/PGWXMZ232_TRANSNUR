@@ -1,4 +1,7 @@
-@media screen and (max-width: 968px) {
+$base_color: #142C2E;
+$focus_color: #2C95D6;
+
+@media screen and (max-width: 1024px) {
   html {
     padding: auto 10px;
     max-width: 90vw;
@@ -21,10 +24,7 @@
 
   }
 
-  // img {
-  //   border: 1px solid red;
 
-  // }
 
   div {
     align-items: center;
@@ -103,7 +103,7 @@
   }
 
   .separe {
-    margin-top: 30rem;
+    margin-top: 35rem;
   }
 
 
@@ -113,7 +113,6 @@
 
 
   .services {
-
     h2 {
       font-size: 1.2rem;
     }
@@ -215,7 +214,7 @@
 
     .missionContent {
 
-      padding: 2rem 1rem;
+      padding: 2rem 4rem;
 
       h2 {
         font-size: 1.2rem;
@@ -325,4 +324,285 @@
 
   }
 
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .hero {
+    margin-top: 5rem;
+
+    div {
+      h2 {
+        font-size: 6rem;
+        padding: 0 3rem;
+      }
+
+      p {
+        align-self: flex-end;
+        width: 400px;
+        font-weight: 400;
+      }
+    }
+
+    img {
+      margin-top: 80px;
+      width: 90vw;
+      height: 45vh;
+    }
+  }
+
+
+  .our_clients {
+    padding-top: 4rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .logos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 50px;
+
+      img {
+        width: 120px;
+        justify-self: center;
+      }
+    }
+
+    .our_solution {
+      justify-content: space-between;
+      gap: 6rem;
+
+      img {
+        margin-top: 0;
+        padding-top: 0;
+        width: 40vw;
+        height: 40vh;
+      }
+
+      p {
+        width: 30rem;
+        margin-top: 80px;
+        text-align: justify;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .why {
+    padding-top: 8rem;
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    >div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+
+      .info {
+        margin-top: 2rem;
+
+        h4 {
+          font-size: 1.6rem;
+          color: #00000057;
+          margin-bottom: 2rem;
+        }
+
+        .subInfo {
+
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          p {
+            font-size: 1.2rem;
+            text-align: justify;
+          }
+        }
+      }
+
+      .points {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .card {
+          display: flex;
+          gap: 1rem;
+
+          h3 {
+            margin-top: 0.4rem;
+            font-size: 1.5rem;
+          }
+
+          p {
+            margin-top: 1rem;
+            text-align: justify;
+          }
+        }
+      }
+
+    }
+  }
+
+  .coverage {
+    padding-top: 10rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .contentCoverage {
+      h3 {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      display: flex;
+      gap:3rem;
+
+      img {
+        width: 30vw;
+      }
+
+      .map {
+        img {
+          width: 40vw;
+
+        }
+      }
+    }
+  }
+
+
+  .mission {
+    padding-top: 20rem;
+
+    .missionContent {
+      position: absolute;
+      background-color: $base_color;
+      color: white;
+      left: 0;
+      right: 0;
+      padding: 6rem 2rem;
+      text-align: center;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 2rem;
+        }
+
+        .leftHash {
+          align-self: flex-start;
+        }
+
+        .rightHash {
+          align-self: flex-end;
+        }
+
+        p {
+          padding: 40px 10px;
+          font-size: 2.2rem;
+          font-family: 'Inter', sans-serif;
+          font-weight: 500;
+          font-style: italic;
+          text-align: center;
+        }
+      }
+    }
+
+
+  }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1430px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .hero {
+    margin-top: 5rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 7rem;
+
+        span {
+          color: $focus_color;
+        }
+
+      }
+
+      p {
+        align-self: flex-end;
+        width: 400px;
+        font-weight: 400;
+      }
+    }
+
+    img {
+      margin-top: 80px;
+      width: 70vw;
+      height: 38vh;
+    }
+  }
+
+
+
+
+
+
+  .our_clients {
+
+
+    .logos {
+      display: flex;
+      gap: 50px;
+
+      img {
+        width: 120px;
+        justify-self: center;
+      }
+    }
+
+    .our_solution {
+      justify-content: space-between;
+      gap: 10rem;
+
+      img {
+        margin-top: 0;
+        padding-top: 0;
+        width: 40vw;
+        height: 40vh;
+      }
+
+      p {
+        width: 40rem;
+        margin-top: 100px;
+        text-align: justify;
+        font-size: 1.5rem;
+      }
+    }
+  }
 }

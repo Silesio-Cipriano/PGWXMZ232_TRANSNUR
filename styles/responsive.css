@@ -85,6 +85,8 @@
     gap: 50px;
   }
   .our_clients .logos img {
+    align-self: center;
+    text-align: center;
     width: 60px;
   }
   .our_clients .our_solution {
@@ -104,7 +106,7 @@
     font-size: 0.8rem;
   }
   .separe {
-    margin-top: 30rem;
+    margin-top: 15rem;
   }
   .separe2 {
     margin-top: 10rem;

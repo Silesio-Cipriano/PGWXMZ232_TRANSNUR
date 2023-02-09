@@ -1,4 +1,4 @@
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1024px) {
   html {
     padding: auto 10px;
     max-width: 90vw;
@@ -71,7 +71,7 @@
     font-size: 0.8rem;
   }
   .separe {
-    margin-top: 30rem;
+    margin-top: 35rem;
   }
   .separe2 {
     margin-top: 10rem;
@@ -147,7 +147,7 @@
     padding: 5rem 1rem;
   }
   .mission .missionContent {
-    padding: 2rem 1rem;
+    padding: 2rem 4rem;
   }
   .mission .missionContent h2 {
     font-size: 1.2rem;
@@ -225,4 +225,210 @@
     opacity: 0.6;
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=tabletResponsive.css.map */
+}
+@media screen and (min-width: 1025px) {
+  html {
+    margin: 0 auto;
+  }
+  .hero {
+    margin-top: 5rem;
+  }
+  .hero div h2 {
+    font-size: 6rem;
+    padding: 0 3rem;
+  }
+  .hero div p {
+    align-self: flex-end;
+    width: 400px;
+    font-weight: 400;
+  }
+  .hero img {
+    margin-top: 80px;
+    width: 90vw;
+    height: 45vh;
+  }
+  .our_clients {
+    padding-top: 4rem;
+  }
+  .our_clients h2 {
+    font-size: 2rem;
+  }
+  .our_clients .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .our_clients .logos img {
+    width: 120px;
+    justify-self: center;
+  }
+  .our_clients .our_solution {
+    justify-content: space-between;
+    gap: 6rem;
+  }
+  .our_clients .our_solution img {
+    margin-top: 0;
+    padding-top: 0;
+    width: 40vw;
+    height: 40vh;
+  }
+  .our_clients .our_solution p {
+    width: 30rem;
+    margin-top: 80px;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+  .why {
+    padding-top: 8rem;
+  }
+  .why h3 {
+    font-size: 2rem;
+  }
+  .why > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .why > div .info {
+    margin-top: 2rem;
+  }
+  .why > div .info h4 {
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.3411764706);
+    margin-bottom: 2rem;
+  }
+  .why > div .info .subInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .why > div .info .subInfo p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .why > div .points {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .why > div .points .card {
+    display: flex;
+    gap: 1rem;
+  }
+  .why > div .points .card h3 {
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+  }
+  .why > div .points .card p {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .coverage {
+    padding-top: 10rem;
+  }
+  .coverage h2 {
+    font-size: 2rem;
+  }
+  .coverage .contentCoverage {
+    display: flex;
+    gap: 3rem;
+  }
+  .coverage .contentCoverage h3 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+  .coverage .contentCoverage img {
+    width: 30vw;
+  }
+  .coverage .contentCoverage .map img {
+    width: 40vw;
+  }
+  .mission {
+    padding-top: 20rem;
+  }
+  .mission .missionContent {
+    position: absolute;
+    background-color: #142C2E;
+    color: white;
+    left: 0;
+    right: 0;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  .mission .missionContent h2 {
+    font-size: 2rem;
+  }
+  .mission .missionContent div {
+    display: flex;
+    flex-direction: column;
+  }
+  .mission .missionContent div img {
+    width: 2rem;
+  }
+  .mission .missionContent div .leftHash {
+    align-self: flex-start;
+  }
+  .mission .missionContent div .rightHash {
+    align-self: flex-end;
+  }
+  .mission .missionContent div p {
+    padding: 40px 10px;
+    font-size: 2.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1430px) {
+  html {
+    margin: 0 auto;
+  }
+  .hero {
+    margin-top: 5rem;
+  }
+  .hero div {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero div h2 {
+    font-size: 7rem;
+  }
+  .hero div h2 span {
+    color: #2C95D6;
+  }
+  .hero div p {
+    align-self: flex-end;
+    width: 400px;
+    font-weight: 400;
+  }
+  .hero img {
+    margin-top: 80px;
+    width: 70vw;
+    height: 38vh;
+  }
+  .our_clients .logos {
+    display: flex;
+    gap: 50px;
+  }
+  .our_clients .logos img {
+    width: 120px;
+    justify-self: center;
+  }
+  .our_clients .our_solution {
+    justify-content: space-between;
+    gap: 10rem;
+  }
+  .our_clients .our_solution img {
+    margin-top: 0;
+    padding-top: 0;
+    width: 40vw;
+    height: 40vh;
+  }
+  .our_clients .our_solution p {
+    width: 40rem;
+    margin-top: 100px;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=desktopResponsive.css.map */

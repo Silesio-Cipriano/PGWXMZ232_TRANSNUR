@@ -178,6 +178,11 @@ header nav div .buttonPrimary div {
 
 .separe {
   content: "";
+  margin-top: 40rem;
+}
+
+.separe2 {
+  content: "";
   margin-top: 50rem;
 }
 
@@ -307,10 +312,8 @@ header nav div .buttonPrimary div {
   align-self: flex-end;
 }
 .mission .missionContent div p {
-  -webkit-text-decoration: wavy;
-          text-decoration: wavy;
   padding: 40px 10px;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: italic;
@@ -388,7 +391,7 @@ footer > div .copyright {
     padding: 1rem 1rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .btn_iconHeader {
     display: block;
   }
