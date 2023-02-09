@@ -5,7 +5,10 @@ Portfólio web para a empresa TRANSNUR,LDA.🚀 🫐 🚀
 
 [x]- Todos pontos chaves;
 <br/>
-[ ]- Responsividade;
+[x]- Responsividade;
+<br/>
+[ ]- Enviar email;
+
 
 <hr/>
 ### UI Design
