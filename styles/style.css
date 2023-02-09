@@ -414,14 +414,14 @@ footer > div .copyright {
   nav .center_nav {
     align-items: center;
     z-index: 2;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     top: 0;
+    bottom: 0;
     background-color: #142C2E;
     width: 50vw;
     animation-duration: 1s;
     margin-left: -100vw;
-    height: 100%;
   }
   nav .center_nav ul {
     padding-top: 2rem;

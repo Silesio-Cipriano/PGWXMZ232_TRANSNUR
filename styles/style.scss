@@ -37,6 +37,7 @@ header {
       justify-content: center;
       gap: 3rem;
 
+
       li {
         &:hover {
           border-bottom: 2px solid $focus_color;
@@ -518,14 +519,15 @@ footer {
       }
 
 
-      position: absolute;
+      position: fixed;
       flex-direction: column;
       top:0;
+      bottom: 0;
       background-color: $base_color;
       width: 50vw;
+
       animation-duration: 1s;
       margin-left: -100vw;
-      height: 100%;
 
       li {
 
