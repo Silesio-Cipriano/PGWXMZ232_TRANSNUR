@@ -1,6 +1,18 @@
 @media screen and (max-width: 400px) {
+  .our_clients .our_solution img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .our_clients .our_solution p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 568px) {
   html {
     padding: auto 10px;
+    max-width: 568px;
   }
   header nav .logo img {
     width: 8rem;
@@ -16,70 +28,206 @@
     flex-direction: column;
   }
   div .hero {
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: 2rem auto 0;
+    justify-content: center;
   }
   div .hero h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding: 10px;
     text-align: center;
   }
   div .hero p {
     font-size: 0.8rem;
     align-self: center;
     text-align: center;
-    margin: 10px 0;
-    width: 350px;
+    margin: 20px 0;
+    width: 300px;
   }
   div .hero img {
-    margin-top: 40px;
-    width: 20rem;
+    margin-top: 20px;
+    width: 18rem;
     height: 6rem;
   }
+  .our_clients {
+    padding-top: 4rem;
+  }
   .our_clients h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .our_clients .logos {
-    flex-direction: column;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
   }
   .our_clients .logos img {
     width: 60px;
   }
   .our_clients .our_solution {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .our_clients .our_solution img {
+    margin-top: 0;
+    padding-top: 0;
     width: 24rem;
   }
   .our_clients .our_solution p {
     margin-top: 40px;
-    font-size: 10px;
-    width: 350px;
     text-align: center;
+    max-width: 300px;
+    font-size: 0.8rem;
+  }
+  .separe {
+    margin-top: 15rem;
+  }
+  .services h2 {
+    font-size: 1.2rem;
   }
   .services img {
-    width: 100px;
+    width: 10rem;
+  }
+  .services .services_content {
+    margin-top: 2rem;
+    gap: 3rem;
+  }
+  .services .services_content h3 {
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .services .services_content p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .services .services_content img {
+    width: 18rem;
+  }
+  .why {
+    padding-top: 1rem;
+  }
+  .why h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .why > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .why > div .info h4 {
+    font-size: 0.9rem;
+  }
+  .why > div .info .subInfo {
+    gap: 1rem;
+  }
+  .why > div .info .subInfo p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .why > div .points .card h3 {
+    font-size: 1rem;
+  }
+  .why > div .points .card p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .about {
+    padding-top: 6rem;
+  }
+  .about h2 {
+    font-size: 1.2rem;
+  }
+  .about p {
+    text-align: justify;
+    font-size: 0.8rem;
   }
   .about div img {
-    width: 100px;
+    width: 20rem;
+  }
+  .about div span {
+    gap: 2rem;
+  }
+  .mission {
+    margin: 0 0;
+    padding: 5rem 1rem;
   }
   .mission .missionContent {
-    padding: 0 0;
+    padding: 2rem 1rem;
   }
   .mission .missionContent h2 {
-    font-size: 24px;
+    font-size: 1.2rem;
   }
   .mission .missionContent div img {
     width: 2rem;
   }
   .mission .missionContent div p {
-    font-size: 24px;
+    font-size: 1rem;
+  }
+  .coverage h2 {
+    font-size: 1.2rem;
+    text-align: center;
   }
   .coverage .contentCoverage {
     flex-direction: column;
+    gap: 2rem;
+  }
+  .coverage .contentCoverage h3 {
+    font-size: 0.8rem;
+  }
+  .coverage .contentCoverage div div {
+    gap: 2rem;
   }
   .coverage .contentCoverage img {
-    width: 10px;
+    width: 20rem;
+  }
+  footer {
+    margin-top: 8rem;
+    padding: 3rem 2rem;
+  }
+  footer > div h2 {
+    font-size: 1rem;
+    width: 80vw;
+  }
+  footer > div button {
+    margin-top: 0.6rem;
+    padding: 0.4rem 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  footer > div div {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer > div div .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  footer > div div .left span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 80vw;
+  }
+  footer > div div .left span h4 {
+    font-size: 0.8rem;
+  }
+  footer > div div .right img {
+    width: 2.2rem;
+  }
+  footer > div div .right h4 {
+    margin-top: 1rem;
+    width: 12rem;
+  }
+  footer > div .copyright {
+    margin: 4rem 0 2rem;
+    opacity: 0.6;
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=responsive.css.map */

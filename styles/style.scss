@@ -166,8 +166,8 @@ header {
 
   img {
     margin-top: 80px;
-    width: 80rem;
-    height: 442px;
+    width: 70vw;
+    height: 38vh;
   }
 }
 
@@ -197,14 +197,15 @@ header {
   .our_solution {
     display: flex;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 22rem;
     left: 0;
 
 
     p {
       margin-top: 100px;
       width: 700px;
-      font-size: 20px;
+      font-size: 1.4rem;
+      text-align: justify;
     }
   }
 }
@@ -407,7 +408,7 @@ footer {
     position: absolute;
     left: 0;
     padding: 6rem 12rem;
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
 
     align-items: center;
     right: 0;
@@ -445,11 +446,18 @@ footer {
       }
 
       .right {
+
+
         h4 {
           margin-top: 1rem;
           width: 12rem;
         }
       }
+    }
+
+    .copyright {
+      margin: 10rem 0 2rem;
+      opacity: 0.6;
     }
 
   }
