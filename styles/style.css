@@ -32,7 +32,18 @@ header nav ul {
   justify-content: center;
   gap: 3rem;
 }
-header nav ul a {
+header nav ul li:hover {
+  border-bottom: 2px solid #2C95D6;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+header nav ul li:hover a {
+  color: #2C95D6;
+}
+header nav ul li a {
   text-decoration: none;
   font-weight: bold;
   color: #142C2E;

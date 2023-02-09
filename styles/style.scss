@@ -37,10 +37,25 @@ header {
       justify-content: center;
       gap: 3rem;
 
-      a {
-        text-decoration: none;
-        font-weight: bold;
-        color: $base_color;
+      li {
+        &:hover {
+          border-bottom: 2px solid $focus_color;
+          transition: 0.1s;
+          -webkit-transition: 0.1s;
+          -moz-transition: 0.1s;
+          -ms-transition: 0.1s;
+          -o-transition: 0.1s;
+
+          a {
+            color: $focus_color;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          font-weight: bold;
+          color: $base_color;
+        }
       }
     }
 
