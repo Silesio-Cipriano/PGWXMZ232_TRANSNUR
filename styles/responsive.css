@@ -57,6 +57,19 @@
     width: 70vw;
     font-size: 12px;
   }
+  .modal .modalContent {
+    width: 300px;
+  }
+  .modal .modalContent div .buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .modal .modalContent div .buttons button {
+    width: 100%;
+    padding: 1rem 0;
+  }
   div {
     align-items: center;
     display: flex;

@@ -67,8 +67,8 @@
             </li>
           </ul>
           <div>
-            <div class="buttonPrimary">
-              <button>Contactar</button>
+            <div class="buttonPrimary" onclick="openModal()">
+              <button onclick="openModal()">Contactar</button>
               <div></div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 certamente iremos contribuir para o sucesso do seu negócio.
               </p>
               <div class="buttonPrimary">
-                <button>Contactar</button>
+                <button onclick="openModal()">Contactar</button>
                 <div></div>
               </div>
             </div>
@@ -275,7 +275,7 @@
       <div>
         <img src="./assets/logoWithBackground.svg" alt="" srcset="" />
         <h2>Estamos à disposição para ajudar no sucesso do seu negócio!</h2>
-        <button>Contactar</button>
+        <button onclick="openModal()">Contactar</button>
         <div>
           <div class="left">
             <span>
@@ -301,6 +301,22 @@
         <h4 class="copyright">TRANSNUR,LDA © 2023</h4>
       </footer>
 
+      <div class="modal" id="modal">
+        <div class="modalContent">
+          <div>
+            <input type="text" id="name" placeholder="Nome">
+            <input type="text" id="email" placeholder="E-mail">
+            <input type="text" id="subject" placeholder="O assunto">
+            <textarea name="message" id="message" placeholder="Digite uma mensagem" >
+            </textarea>
+            <div class="buttons">
+              <button class="cancel" onclick="closeModal()">Cancelar</button>
+              <button class="send" onclick="enviarEmail()">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="./javascript/index.js"></script>
+    <script src="./javascript/sendEmail.js"></script>
   </body>
 </html>

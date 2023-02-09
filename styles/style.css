@@ -392,6 +392,84 @@ footer > div .copyright {
   opacity: 0.6;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+}
+.modal .modalContent {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  max-width: 468px;
+}
+.modal .modalContent div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 10rem;
+  gap: 1rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.modal .modalContent div input {
+  width: 96%;
+  height: 3rem;
+  padding-left: 1rem;
+  background-color: #D4F2FF;
+  border: none;
+  font-size: 1rem;
+}
+.modal .modalContent div textArea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #D4F2FF;
+  font-size: 16px;
+  resize: none;
+}
+.modal .modalContent div .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 0;
+}
+.modal .modalContent div .buttons button {
+  font-size: 1rem;
+  width: 40%;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  background-color: #142C2E;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.modal .modalContent div .buttons button.cancel {
+  background-color: #DF6262;
+}
+
 @media screen and (max-width: 400px) {
   html {
     font-size: 62, 5%;

@@ -91,10 +91,31 @@
 
   }
 
+  .modal {
+    .modalContent {
+      width: 300px;
+
+      div {
+        .buttons {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: space-between;
+          margin-top: 4rem;
+
+          button {
+            width: 100%;
+            padding: 1rem 0;
+          }
+        }
+      }
+    }
+  }
+
   // img {
   //   border: 1px solid red;
 
   // }
+
 
   div {
     align-items: center;
