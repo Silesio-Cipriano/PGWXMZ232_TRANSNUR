@@ -1,40 +1,7 @@
-@media screen and (max-width: 660px) {
-  .separe {
-    margin-top: 20rem;
-  }
-}
-@media screen and (max-width: 400ppx) {
-  .our_clients .our_solution img {
-    margin-top: 0;
-    padding-top: 0;
-    width: 100px;
-  }
-  .our_clients .our_solution p {
-    margin-top: 40px;
-    width: 100vw;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  .mission .missionContent {
-    width: 100vw;
-    left: 0;
-    right: 0;
-    padding: 2rem 1rem;
-  }
-  .mission .missionContent h2 {
-    font-size: 1.2rem;
-  }
-  .mission .missionContent div img {
-    width: 2rem;
-  }
-  .mission .missionContent div p {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 868px) {
   html {
     padding: auto 10px;
-    max-width: 568px;
+    max-width: 90vw;
   }
   header nav .logo img {
     width: 8rem;
@@ -57,21 +24,21 @@
     justify-content: center;
   }
   div .hero h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 10px;
     text-align: center;
   }
   div .hero p {
-    font-size: 0.8rem;
+    margin: 2rem 0;
+    font-size: 1rem;
     align-self: center;
     text-align: center;
-    margin: 20px 0;
-    width: 300px;
+    width: 60vw;
   }
   div .hero img {
     margin-top: 20px;
-    width: 18rem;
-    height: 6rem;
+    width: 60vw;
+    height: 9rem;
   }
   .our_clients {
     padding-top: 4rem;
@@ -81,11 +48,11 @@
   }
   .our_clients .logos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
   }
   .our_clients .logos img {
-    width: 60px;
+    width: 80px;
   }
   .our_clients .our_solution {
     flex-direction: column;
@@ -200,13 +167,13 @@
     gap: 2rem;
   }
   .coverage .contentCoverage h3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .coverage .contentCoverage div div {
     gap: 2rem;
   }
   .coverage .contentCoverage img {
-    width: 20rem;
+    width: 30rem;
   }
   footer {
     margin-top: 8rem;
@@ -258,4 +225,4 @@
     opacity: 0.6;
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=tabletResponsive.css.map */
