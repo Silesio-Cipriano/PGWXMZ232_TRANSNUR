@@ -36,6 +36,20 @@
     padding: auto 10px;
     max-width: 568px;
   }
+  .floatButton {
+    bottom: 10%;
+    right: 5%;
+    padding: 0.2rem 0.2rem;
+    border: 1px solid white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  .floatButton img {
+    width: 2rem;
+  }
   header nav .logo img {
     width: 8rem;
   }
