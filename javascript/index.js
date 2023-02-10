@@ -33,15 +33,15 @@ var lastScrollTop = 0;
 window.addEventListener(
   'scroll',
   function () {
-    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+    var st = window.pageYOffset || document.documentElement.scrollTop;
     if (st > lastScrollTop) {
       goUp.style.display = 'block';
       goDown.style.display = 'none';
     } else if (st < lastScrollTop) {
       goUp.style.display = 'none';
       goDown.style.display = 'block';
-    } // else was horizontal scroll
-    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
   },
   false
 );

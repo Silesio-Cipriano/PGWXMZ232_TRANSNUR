@@ -7,7 +7,9 @@ Portfólio web para a empresa TRANSNUR,LDA.🚀 🫐 🚀
 <br/>
 [x]- Responsividade;
 <br/>
-[ ]- Enviar email;
+[x]- Contactar por email;
+<br/>
+[ ]- Galeria dos "Trucks"
 
 
 <hr/>

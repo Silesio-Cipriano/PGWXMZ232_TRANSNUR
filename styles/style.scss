@@ -493,17 +493,19 @@ footer {
   top: 0;
   bottom: 0;
   left: 0;
+  justify-content: center;
+  align-items: center;
   right: 0;
   background-color: rgba(0, 0, 0, .4);
   visibility: hidden;
 
   .modalContent {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto auto;
     max-width: 468px;
+    height: 100%;
 
     div {
       display: flex;
@@ -523,7 +525,6 @@ footer {
 
       input {
         width: 96%;
-
         height: 3rem;
         padding-left: 1rem;
         background-color: $input_color;

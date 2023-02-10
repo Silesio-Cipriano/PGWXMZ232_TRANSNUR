@@ -147,7 +147,7 @@
                 Conte connosco para ser seu parceiro transportador estratégico,
                 certamente iremos contribuir para o sucesso do seu negócio.
               </p>
-              <div class="buttonPrimary">
+              <div class="buttonPrimary" onclick="openModal()">
                 <button onclick="openModal()">Contactar</button>
                 <div></div>
               </div>
@@ -301,7 +301,7 @@
         <h4 class="copyright">TRANSNUR,LDA © 2023</h4>
       </footer>
 
-      <div class="modal" id="modal">
+      <div class="modal" id="modal" tabindex="0" onclick="closeSidebar()">
         <div class="modalContent">
           <div>
             <input type="text" id="name" placeholder="Nome">

@@ -2,10 +2,18 @@ let modal = document.getElementById('modal');
 
 function closeModal() {
   modal.style.visibility = 'hidden';
+  let goUp = document.getElementById('goUp');
+  let goDown = document.getElementById('goDown');
+  goUp.style.zIndex = 1;
+  goDown.style.zIndex = 1;
 }
 
 function openModal() {
   modal.style.visibility = 'visible';
+  let goUp = document.getElementById('goUp');
+  let goDown = document.getElementById('goDown');
+  goUp.style.zIndex = 0;
+  goDown.style.zIndex = 0;
 }
 
 function enviarEmail() {
