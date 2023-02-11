@@ -403,9 +403,6 @@
   .hero div h2 {
     font-size: 7rem;
   }
-  .hero div h2 span {
-    color: #2C95D6;
-  }
   .hero div p {
     align-self: flex-end;
     width: 400px;
