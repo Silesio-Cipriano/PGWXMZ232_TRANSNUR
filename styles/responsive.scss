@@ -2,6 +2,118 @@
   .separe {
     margin-top: 20rem;
   }
+
+  #slider {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-top: 12rem;
+
+    left: 0;
+    right: 0;
+
+    .overlay {
+
+      left: 0;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    #hero-slider {
+      width: 100%;
+      height: 60vh;
+      overflow: hidden;
+    }
+
+    #hero-slider .carousel-cell {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #hero-slider .carousel-cell .inner {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+      text-align: center;
+    }
+
+    #hero-slider .carousel-cell .inner .subtitle {
+      font-family: 'Roboto Slab', serif;
+      font-size: 2.2rem;
+      line-height: 1.2em;
+      font-weight: 200;
+      font-style: italic;
+      letter-spacing: 3px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 5px;
+    }
+
+    #hero-slider .carousel-cell .inner .title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 40px;
+    }
+
+    #hero-slider .carousel-cell .inner .btn {
+      border: 1px solid #fff;
+      padding: 14px 18px;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 3px;
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    #hero-slider .carousel-cell .inner .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    #hero-slider .flickity-prev-next-button {
+      width: 80px;
+      height: 80px;
+      background: transparent;
+    }
+
+    #hero-slider .flickity-prev-next-button:hover {
+      background: transparent;
+    }
+
+    #hero-slider .flickity-prev-next-button .arrow {
+      fill: white;
+    }
+
+    #hero-slider .flickity-page-dots {
+      bottom: 30px;
+    }
+
+    #hero-slider .flickity-page-dots .dot {
+      width: 30px;
+      height: 4px;
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.5);
+      border: 0 solid white;
+      border-radius: 0;
+    }
+
+    #hero-slider .flickity-page-dots .dot.is-selected {
+      background: #f00;
+      border: 0 solid #f00;
+    }
+  }
+
 }
 
 @media screen and (max-width: 400ppx) {
@@ -35,6 +147,7 @@
 
       h2 {
         font-size: 1.2rem;
+
       }
 
       div {
@@ -117,12 +230,21 @@
   // }
 
 
-  div {
+  .content {
     align-items: center;
     display: flex;
     justify-content: center;
 
     flex-direction: column;
+
+    // div {
+    //   align-items: center;
+    //   display: flex;
+    //   justify-content: center;
+
+    //   flex-direction: column;
+
+    // }
 
     .hero {
       display: flex;
@@ -207,6 +329,14 @@
 
 
   .services {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
 
     h2 {
       font-size: 1.2rem;
@@ -237,6 +367,15 @@
   }
 
   .why {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
+
     padding-top: 1rem;
 
     h3 {
@@ -281,6 +420,15 @@
   }
 
   .about {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
+
     padding-top: 6rem;
 
     h2 {
@@ -305,6 +453,15 @@
   }
 
   .mission {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
+
     margin: 0 0;
     padding: 5rem 1rem;
 
@@ -329,6 +486,15 @@
   }
 
   .coverage {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
+
     h2 {
       font-size: 1.2rem;
       text-align: center;
@@ -357,6 +523,15 @@
 
 
   footer {
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+
+    }
+
     margin-top: 8rem;
     padding: 3rem 2rem;
 

@@ -10,32 +10,32 @@
     width: 70vw;
     font-size: 12px;
   }
-  div {
+  .content {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  div .hero {
+  .content .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2rem auto 0;
     justify-content: center;
   }
-  div .hero h2 {
+  .content .hero h2 {
     font-size: 2rem;
     padding: 10px;
     text-align: center;
   }
-  div .hero p {
+  .content .hero p {
     margin: 2rem 0;
     font-size: 1rem;
     align-self: center;
     text-align: center;
     width: 60vw;
   }
-  div .hero img {
+  .content .hero img {
     margin-top: 20px;
     width: 60vw;
     height: 9rem;
@@ -98,6 +98,10 @@
     width: 18rem;
   }
   .why {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 1rem;
   }
   .why h3 {
@@ -127,6 +131,10 @@
     text-align: center;
   }
   .about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 6rem;
   }
   .about h2 {
@@ -177,6 +185,7 @@
   }
   footer {
     margin-top: 8rem;
+    flex-direction: column;
     padding: 3rem 2rem;
   }
   footer > div {
@@ -195,6 +204,7 @@
   footer > div div {
     margin-top: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
   footer > div div .left {
@@ -265,6 +275,7 @@
   .our_clients .our_solution {
     justify-content: space-between;
     gap: 6rem;
+    margin-top: 30rem;
   }
   .our_clients .our_solution img {
     margin-top: 0;
@@ -348,8 +359,6 @@
   }
   .mission .missionContent {
     position: absolute;
-    background-color: #142C2E;
-    color: white;
     left: 0;
     right: 0;
     padding: 6rem 10rem;
@@ -418,6 +427,7 @@
   .our_clients .our_solution {
     justify-content: space-between;
     gap: 10rem;
+    margin-top: 20rem;
   }
   .our_clients .our_solution img {
     margin-top: 0;

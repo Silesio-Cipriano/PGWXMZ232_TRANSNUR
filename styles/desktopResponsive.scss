@@ -26,7 +26,7 @@ $focus_color: #2C95D6;
 
 
 
-  div {
+  .content {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -142,6 +142,12 @@ $focus_color: #2C95D6;
   }
 
   .why {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
     padding-top: 1rem;
 
     h3 {
@@ -186,6 +192,12 @@ $focus_color: #2C95D6;
   }
 
   .about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
     padding-top: 6rem;
 
     h2 {
@@ -262,6 +274,7 @@ $focus_color: #2C95D6;
 
   footer {
     margin-top: 8rem;
+    flex-direction: column;
     padding: 3rem 2rem;
 
     >div {
@@ -282,6 +295,8 @@ $focus_color: #2C95D6;
       div {
         margin-top: 2rem;
         display: flex;
+        flex-direction: column;
+
         justify-content: space-between;
 
         .left {
@@ -376,6 +391,8 @@ $focus_color: #2C95D6;
     .our_solution {
       justify-content: space-between;
       gap: 6rem;
+
+      margin-top: 30rem;
 
       img {
         margin-top: 0;
@@ -486,8 +503,6 @@ $focus_color: #2C95D6;
 
     .missionContent {
       position: absolute;
-      background-color: $base_color;
-      color: white;
       left: 0;
       right: 0;
       padding: 6rem 10rem;
@@ -589,6 +604,7 @@ $focus_color: #2C95D6;
     .our_solution {
       justify-content: space-between;
       gap: 10rem;
+      margin-top: 20rem;
 
       img {
         margin-top: 0;

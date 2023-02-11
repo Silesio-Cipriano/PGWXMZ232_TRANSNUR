@@ -1,3 +1,7 @@
+p {
+  color: #ffffff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +19,7 @@ html {
 
 body {
   padding: 1.5rem 1.5rem;
+  background-color: #0F1829;
 }
 
 header nav {
@@ -46,7 +51,7 @@ header nav ul li:hover a {
 header nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: #142C2E;
+  color: #F9BD00;
 }
 header nav .center_nav {
   display: flex;
@@ -54,12 +59,12 @@ header nav .center_nav {
 }
 header nav div .buttonPrimary button {
   cursor: pointer;
-  background-color: #142C2E;
-  color: white;
+  background-color: #F9BD00;
+  color: #0F1829;
   width: 12rem;
   height: 3rem;
   font-weight: bold;
-  border: 1px solid #142C2E;
+  border: 1px solid #F9BD00;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -69,7 +74,7 @@ header nav div .buttonPrimary button {
 header nav div .buttonPrimary div {
   width: 11.7rem;
   height: 3rem;
-  border: 1.5px solid #142C2E;
+  border: 1.5px solid #F9BD00;
   margin-left: 10px;
   margin-top: -40px;
   border-radius: 3px;
@@ -85,7 +90,7 @@ header nav div .buttonPrimary div {
   right: 5%;
   padding: 0.5rem 0.5rem;
   z-index: 2;
-  background-color: #142C2E;
+  background-color: #F9BD00;
   border: 2px solid white;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -99,12 +104,12 @@ header nav div .buttonPrimary div {
 
 .buttonPrimary button {
   cursor: pointer;
-  background-color: #142C2E;
-  color: white;
+  background-color: #F9BD00;
+  color: #0F1829;
   width: 12rem;
   height: 3rem;
   font-weight: bold;
-  border: 1px solid #142C2E;
+  border: 1px solid #F9BD00;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -114,7 +119,7 @@ header nav div .buttonPrimary div {
 .buttonPrimary div {
   width: 11.7rem;
   height: 3rem;
-  border: 1.5px solid #142C2E;
+  border: 1.5px solid #F9BD00;
   margin-left: 10px;
   margin-top: -40px;
   border-radius: 3px;
@@ -140,13 +145,15 @@ header nav div .buttonPrimary div {
 }
 .hero div h2 {
   font-size: 7rem;
+  color: white;
 }
 .hero div h2 span {
-  color: #2C95D6;
+  color: #F9BD00;
 }
 .hero div p {
   align-self: flex-end;
   width: 400px;
+  color: #F9BD00;
   font-weight: 400;
 }
 .hero img {
@@ -163,6 +170,7 @@ header nav div .buttonPrimary div {
 }
 .our_clients h2 {
   font-size: 2rem;
+  color: #ffffff;
 }
 .our_clients .logos {
   display: flex;
@@ -202,6 +210,7 @@ header nav div .buttonPrimary div {
   flex-direction: column;
   align-items: center;
   padding-top: 10rem;
+  color: #ffffff;
 }
 .services h2 {
   font-size: 2rem;
@@ -223,6 +232,7 @@ header nav div .buttonPrimary div {
 
 .why {
   padding-top: 8rem;
+  color: #ffffff;
 }
 .why h3 {
   font-size: 2rem;
@@ -237,7 +247,7 @@ header nav div .buttonPrimary div {
 }
 .why > div .info h4 {
   font-size: 1.6rem;
-  color: rgba(0, 0, 0, 0.3411764706);
+  color: rgba(255, 255, 255, 0.3411764706);
   margin-bottom: 2rem;
 }
 .why > div .info .subInfo {
@@ -272,6 +282,7 @@ header nav div .buttonPrimary div {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  color: #ffffff;
 }
 .about h2 {
   font-size: 2rem;
@@ -296,17 +307,19 @@ header nav div .buttonPrimary div {
 
 .mission {
   padding-top: 20rem;
+  color: #0F1829;
 }
 .mission .missionContent {
   position: absolute;
-  background-color: #142C2E;
-  color: white;
+  background-color: white;
+  color: #0F1829;
   left: 0;
   right: 0;
   padding: 6rem 20rem;
   text-align: center;
 }
 .mission .missionContent h2 {
+  color: #0F1829;
   font-size: 3rem;
 }
 .mission .missionContent div {
@@ -328,35 +341,50 @@ header nav div .buttonPrimary div {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: italic;
+  color: #0F1829;
   text-align: center;
 }
 
 .coverage {
   padding-top: 10rem;
+  color: #ffffff;
 }
 .coverage h2 {
   font-size: 2rem;
 }
 .coverage .contentCoverage {
+  gap: 10rem;
+  justify-content: space-between;
   display: flex;
 }
 .coverage .contentCoverage h3 {
   font-size: 1.5rem;
   margin: 2rem 0;
 }
+.coverage .contentCoverage .extraTruck {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.coverage .contentCoverage img {
+  width: 30vw;
+}
+.coverage .contentCoverage .map img {
+  width: 40vw;
+}
 
 footer {
   margin-top: 12rem;
 }
 footer > div {
-  background-color: #142C2E;
+  background-color: white;
   position: absolute;
   left: 0;
   padding: 6rem 12rem;
   padding-bottom: 2rem;
   align-items: center;
   right: 0;
-  color: white;
+  color: #0F1829;
   text-align: center;
 }
 footer > div h2 {
@@ -459,7 +487,7 @@ footer > div .copyright {
   height: 3rem;
   border: none;
   cursor: pointer;
-  background-color: #142C2E;
+  background-color: #F9BD00;
   color: white;
   font-weight: bold;
   border-radius: 2px;
@@ -487,7 +515,6 @@ footer > div .copyright {
     display: block;
   }
   nav {
-    background-color: white;
     padding: 1em;
     animation-duration: 1s;
   }
@@ -498,8 +525,9 @@ footer > div .copyright {
     flex-direction: column;
     top: 0;
     bottom: 0;
-    background-color: #142C2E;
+    background-color: #F9BD00;
     width: 50vw;
+    opacity: 0.95;
     animation-duration: 1s;
     margin-left: -100vw;
   }
@@ -508,14 +536,14 @@ footer > div .copyright {
     flex-direction: column;
   }
   nav .center_nav li a {
-    color: white;
+    color: #0F1829;
   }
   nav .center_nav .buttonPrimary {
     margin-top: -4rem;
   }
   nav .center_nav .buttonPrimary button {
-    background-color: white;
-    color: #142C2E;
+    background-color: #0F1829;
+    color: #F9BD00;
   }
   nav .center_nav .buttonPrimary div {
     display: none;
