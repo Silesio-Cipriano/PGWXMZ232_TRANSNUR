@@ -361,6 +361,9 @@
   .coverage .contentCoverage img {
     width: 20rem;
   }
+  .coverage .contentCoverage .map {
+    width: 50rem;
+  }
   footer {
     margin-top: 8rem;
     padding: 3rem 2rem;

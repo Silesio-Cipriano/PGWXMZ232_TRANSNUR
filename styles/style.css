@@ -2,6 +2,11 @@ p {
   color: #ffffff;
 }
 
+#en_lang,
+#pt_lang {
+  cursor: pointer;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -370,7 +375,7 @@ header nav div .buttonPrimary div {
   width: 30vw;
 }
 .coverage .contentCoverage .map img {
-  width: 40vw;
+  width: 75vw;
 }
 
 footer {

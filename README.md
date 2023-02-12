@@ -9,8 +9,9 @@ Portfólio web para a empresa TRANSNUR,LDA.🚀 🫐 🚀
 <br/>
 [x]- Contactar por email;
 <br/>
-[ ]- Galeria dos "Trucks"
-
+[x]- Galeria dos "Trucks"
+<br/>
+[x]- PT & EN
 
 <hr/>
 ### UI Design

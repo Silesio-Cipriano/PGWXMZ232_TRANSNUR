@@ -10,7 +10,10 @@ p {
   color: $text_color;
 }
 
-
+#en_lang,
+#pt_lang {
+  cursor: pointer;
+}
 
 * {
   padding: 0;
@@ -457,7 +460,7 @@ header {
     .map {
       img {
 
-        width: 40vw;
+        width: 75vw;
       }
     }
 
