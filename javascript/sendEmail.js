@@ -34,7 +34,7 @@ function enviarEmail() {
     'Mensagem:%0D%0A' +
     message;
   window.location.href =
-    'mailto:silesioleuderio@gmail.com?subject=' +
+    'mailto:iqbal@transnur.co.mz.com?subject=' +
     subject +
     '&body=' +
     corpoEmail;
